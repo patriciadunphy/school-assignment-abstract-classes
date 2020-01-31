@@ -2,18 +2,18 @@ package org.example;
 
 public abstract class Shape {
     public String colour;
-    public int area;
+    public double area;
 
     public void move(){
         System.out.println("Walks");
     }
-    public int getArea(){
+    public double getArea(){
        return this.area;
     }
-    public void setArea(int length, int width){
+    public void setArea(double r){
         this.area = area;
     }
-    public void setArea(int length, int width, int m){
+    public void setArea(int length, int width){
         this.area = area;
     }
     public void setColour(String colour){

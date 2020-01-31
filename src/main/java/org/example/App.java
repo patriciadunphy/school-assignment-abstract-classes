@@ -6,7 +6,7 @@ public class App
     {
        Circle circle = new Circle();
        circle.move();
-       circle.setArea(3,5);
+       circle.setArea(5.0);
        System.out.println(circle.getArea());
        circle.setColour("red");
        System.out.println(circle.getColour());

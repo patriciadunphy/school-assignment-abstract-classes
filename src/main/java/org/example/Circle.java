@@ -7,8 +7,8 @@ public class Circle extends Shape {
         System.out.println("Rolls");
     }
     @Override
-    public void setArea(int length, int width){
-        int area = length * width;
+    public void setArea(double r){
+        double area = r*r*Math.PI;
         this.area = area;
     }
 
